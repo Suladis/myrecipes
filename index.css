@@ -1,0 +1,89 @@
+header {
+    background-color: antiquewhite;
+    padding: 40px;
+    background-image: url(./images/header.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+
+}
+
+p {
+    background: rgba(11, 139, 171, 0.686);
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 10px;
+}
+
+
+header h1 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 4em;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.container {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: auto;
+    height: 100vh;
+    background-image: url(./images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10px;
+    margin: 5px;
+
+}
+
+.column {
+    flex: 1 0 auto;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid white
+}
+
+.list {
+    flex: 1 10 auto;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid white
+}
+
+.about {
+    flex: 1 10 auto;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid white
+}
+
+
+body h2 {
+    color: white;
+    text-shadow: 2px 2px 4px black;
+    font-size: 30px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+    text-decoration-line: underline;
+
+
+
+}
+
+.item {
+    background: rgba(11, 139, 171, 0.686);
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+    flex: 1;
+    margin: 5px;
+    padding: 10px;
+
+}
